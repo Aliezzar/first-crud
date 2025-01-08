@@ -24,7 +24,7 @@ $no = 0;
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>belajar_crud</title>
+  <title>Aliezzar Wijaya</title>
 </head>
 
 <script>
@@ -57,7 +57,7 @@ $no = 0;
     </a>
 
     <?php
-    if (isset($_SESSION['eksekusi'])):
+    if (isset($_SESSION['eksekusi'])){
     ?>
       <div class="alert alert-success alert-dismissible fade show" role="alert">
         <strong>
@@ -70,7 +70,7 @@ $no = 0;
     <?php
       unset($_SESSION['eksekusi']);
       session_destroy();
-    endif;
+    };
     ?>
 
     <div class="table-responsive">
